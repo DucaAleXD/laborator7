@@ -16,7 +16,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="flex justify-center items-center h-screen">
+        <div class="">
             <form action="{{route('subscribe')}}" method="post">
                 @csrf
                 <div>
