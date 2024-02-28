@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\Subscribe;
+use App\Models\Subscribe;
 
 class SubscribeController extends Controller
 {

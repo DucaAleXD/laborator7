@@ -20,14 +20,14 @@
             <form action="{{route('subscribe')}}" method="post">
                 @csrf
                 <div>
-                    <label for="name">Subscribe</label>
+                    <label for="name">Name</label>
                     <input type="text" name="name" id="name" class="mb-4">
                 </div>
                 <div>
                     <label for="subscribe">Subscribe</label>
                     <input type="email" name="subscribe" id="subscribe" class="mb-4">
                 </div>
-                <button class="p-4" type="Submit">Subscribe</button>
+                <button class="p-4" type="Submit">Submit</button>
             </form>
         </div>
     </body>
