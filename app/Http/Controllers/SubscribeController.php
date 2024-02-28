@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SubscribeUser;
 use Illuminate\Http\Request;
 use App\Models\Subscribe;
 use illuminate\Support\Facades\Mail;

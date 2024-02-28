@@ -28,7 +28,7 @@ class SubscribeUser extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Subscribe',
+            subject: 'SubscribeUser',
         );
     }
 
@@ -38,7 +38,7 @@ class SubscribeUser extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'emai.subscribe',
         );
     }
 
