@@ -17,7 +17,7 @@ class SubscribeController extends Controller
         $subscribe->email=$request->email;
 
         Mail::to($request->email)->send(
-            new SubscribeUser($request->all())
+            new SubscribeUser($subscribe)
         );
         return redirect()->back()->with('success','Inregistrarea reusita!');
     }

@@ -6,7 +6,7 @@
     <title>Subscribe</title>
 </head>
 <body>
-    <h4>Înregistrare {{ env('APP_NAME') }}</h4>
+    <h4>Înregistrare {{env('APP_NAME')}}</h4>
     <p>
         Mulțumim pentru Înregistrare
     </p>
