@@ -17,10 +17,16 @@
     </head>
     <body class="antialiased">
         <div class="flex justify-center items-center h-screen">
-            <form action="" method="post">
+            <form action="{{route('subscribe')}}" method="post">
                 @csrf
-                <label for="subscribe">Subscribe</label>
-                <input type="email" name="subscribe" id="subscribe" class="mb-4">
+                <div>
+                    <label for="name">Subscribe</label>
+                    <input type="text" name="name" id="name" class="mb-4">
+                </div>
+                <div>
+                    <label for="subscribe">Subscribe</label>
+                    <input type="email" name="subscribe" id="subscribe" class="mb-4">
+                </div>
                 <button class="p-4" type="Submit">Subscribe</button>
             </form>
         </div>
